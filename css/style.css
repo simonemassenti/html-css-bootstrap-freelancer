@@ -1,0 +1,33 @@
+/* COMMONS */
+img {
+    width: 100%;
+}
+
+.green {
+    background-color: green;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.black {
+    background-color: black;
+}
+
+.white-txt {
+    color: white;
+}
+
+.brd {
+    border: 1px solid black;
+}
+
+.center {
+    text-align: center;
+}
+
+.cont {
+    width: 78%;
+    margin: 0 auto;
+}
