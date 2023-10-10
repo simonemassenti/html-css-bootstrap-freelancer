@@ -3,31 +3,66 @@ img {
     width: 100%;
 }
 
-.green {
-    background-color: green;
+:root {
+    --primary-color: #1ABC9C;
+    --header-footer-color: #2C3E50;
+    --top-footer-color: #3A546D;
+    --text-white: white;
+    --gray-color: #7B7E80;
 }
 
-.lightblue {
-    background-color: lightblue;
+.bg-color {
+    background-color: var(--primary-color);
 }
 
-.black {
-    background-color: black;
+.ms_link-color {
+    color: var(--primary-color);
+}
+
+.bg-top-footer {
+    background-color: var(--top-footer-color);
+}
+
+.bg-header-bottom-footer {
+    background-color: var(--header-footer-color);
 }
 
 .white-txt {
     color: white;
 }
 
-.brd {
-    border: 1px solid black;
+.ms_btn-width {
+    width: 120px;
 }
 
-.center {
-    text-align: center;
+.ms_spacing-row {
+    letter-spacing: -10px;
 }
 
-.cont {
-    width: 78%;
-    margin: 0 auto;
+.ms_spacing-star {
+    letter-spacing: 10px;
+}
+
+.ms_list-group-item {
+    list-style-type: none;
+    background-color: transparent;
+    color: var(--text-white);
+    font-size: 1.2rem;
+}
+
+.form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+.navbar .navbar-toggler {
+    background-color: transparent;
+    border: 1px solid var(--text-white);
+}
+
+.ms_icon {
+    color: var(--text-white);
+    line-height: 2rem;
 }
